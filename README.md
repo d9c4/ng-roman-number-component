@@ -42,7 +42,7 @@ The component takes the following input parameters:
 ## Example
 The following screenshot shows two instances of component in action wrapping them around an **h2** tag with the default style of the App Component created by Angular:
 <br>
-![img.png](img.png)
+![img.png](https://d9c4.altervista.org/dev/ng-roman-number-component.png)
 <br>
 The numeral parameter is set to **1350021** for both components. The **isRomanFontEnabled** parameter is set to **false** for the first component.
 
