@@ -1,6 +1,6 @@
 {
   "name": "ng-roman-number-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular component that shows the passed number as roman numeral with optional serif formatting",
   "author": "Davide Cifariello <davide.cifariello@gmail.com> (https://github.com/d9c4)",
   "keywords": [

@@ -7,7 +7,7 @@ This library is based on [typescript-roman-numbers-converter](https://www.npmjs.
 ## Installation
 
 ```shell
-$ npm i @d9c4/ng-roman-numbers-component
+$ npm i ng-roman-number-component
   ```
 
 ## How to use it
