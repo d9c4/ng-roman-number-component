@@ -61,3 +61,8 @@ The library also exports the following methods with the same implementation as t
 #License
 The following license applies to this library:
 MIT License (MIT)
+
+#Repository
+The repository of this library is on [GitHub](https://github.com/d9c4/ng-roman-number-component).
+<br>
+The repository contains the source code of this library as Angular Library and a test application.
