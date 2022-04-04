@@ -1,0 +1,27 @@
+{
+  "name": "@d9c4/ng-roman-number-component",
+  "version": "0.0.1",
+  "description": "Angular component that shows the passed number as roman numeral with optional serif formatting",
+  "author": "Davide Cifariello <davide.cifariello@gmail.com> (https://github.com/d9c4)",
+  "keywords": [
+    "angular",
+    "component",
+    "typescript",
+    "roman number",
+    "roman",
+    "converter",
+    "format"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^13.2.0",
+    "@angular/core": "^13.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d9c4/ng-roman-numbers"
+  }
+}

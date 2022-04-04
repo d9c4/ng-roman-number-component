@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import  { toRoman} from "../../dist/d9c4/ng-roman-number-component/lib/ng-roman-number-component.model";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-roman-numbers';
+  title = 'Roman Number Component Test';
 }

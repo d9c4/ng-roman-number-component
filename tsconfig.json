@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@d9c4/ng-roman-number-component": [
+        "dist/d9c4/ng-roman-number-component/d9c4-ng-roman-number-component",
+        "dist/d9c4/ng-roman-number-component",
+        "dist/d9c4/ng-roman-number-component/d9c4-ng-roman-number-component",
+        "dist/d9c4/ng-roman-number-component"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

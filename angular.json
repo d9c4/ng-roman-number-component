@@ -100,6 +100,37 @@
           }
         }
       }
+    },
+    "@d9c4/ng-roman-number-component": {
+      "projectType": "library",
+      "root": "projects/d9c4/ng-roman-number-component",
+      "sourceRoot": "projects/d9c4/ng-roman-number-component/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/d9c4/ng-roman-number-component/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/d9c4/ng-roman-number-component/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/d9c4/ng-roman-number-component/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/d9c4/ng-roman-number-component/src/test.ts",
+            "tsConfig": "projects/d9c4/ng-roman-number-component/tsconfig.spec.json",
+            "karmaConfig": "projects/d9c4/ng-roman-number-component/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-roman-numbers"
