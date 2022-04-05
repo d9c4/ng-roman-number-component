@@ -1,8 +1,10 @@
+[![NPM](https://nodei.co/npm/ng-roman-number-component.png?compact=true)](https://nodei.co/npm/ng-roman-number-component/)
 # NgRomanNumbersComponent
+[![npm version](https://badge.fury.io/js/ng-roman-number-component.svg)](https://badge.fury.io/js/ng-roman-number-component) ![NPM](https://img.shields.io/npm/l/ng-roman-number-component)
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
-**NgRomanNumbers** is a simple and easy to use Angular component that shows the given nuber in Roman numerals.
+**NgRomanNumbers** is a simple and easy to use Angular component that shows the given number in Roman numerals.
 This library is based on [typescript-roman-numbers-converter](https://www.npmjs.com/package/typescript-roman-numbers-converter).
 ## Installation
 
@@ -46,7 +48,7 @@ The following screenshot shows two instances of component in action wrapping the
 <br>
 The numeral parameter is set to **1350021** for both components. The **isRomanFontEnabled** parameter is set to **false** for the first component.
 
-#Other features
+# Other features
 The current release of this library is the first release of this library. The module is still in development and the API is subject to change.
 <br>
 The library exports the class RomanNumber, the same used in the component and in **typescript-roman-numbers-converter**.
@@ -58,11 +60,11 @@ The library also exports the following methods with the same implementation as t
 - toRomanLargeStr(num: string): string
 
 
-#License
+# License
 The following license applies to this library:
 MIT License (MIT)
 
-#Repository
+# Repository
 The repository of this library is on [GitHub](https://github.com/d9c4/ng-roman-number-component).
 <br>
 The repository contains the source code of this library as Angular Library and a test application.
